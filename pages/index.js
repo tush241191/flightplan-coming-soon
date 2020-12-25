@@ -13,11 +13,11 @@ export default function Home() {
 	const [show, setShow] = useState(false);
 	const [time, setTime] = useState(10000);
 	useEffect(() => {
-		const timer = () => setTimeout(() => {setShow(true);setTime(30000)}, time);
-		const timerId = timer();
-		return () => {
-			clearTimeout(timerId);
-		};
+		// const timer = () => setTimeout(() => {setShow(true);setTime(30000)}, time);
+		// const timerId = timer();
+		// return () => {
+		// 	clearTimeout(timerId);
+		// };
 	})
 
 	return (
