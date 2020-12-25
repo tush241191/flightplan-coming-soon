@@ -165,7 +165,7 @@ export default function Animation(props) {
                 <div className="inline-block align-bottom bg-transparent text-left overflow-hidden transform transition-all sm:align-middle w-screen h-screen" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
                     <canvas id="canvas"></canvas>
                     <h1 className="text-3xl grid text-center space-y-2">
-                        <span>Merry Christmas!</span>
+                        <span className="text-7xl">Merry Christmas!</span>
                         <span>***</span>
                         <span>Click Anywhere</span>
                     </h1>
